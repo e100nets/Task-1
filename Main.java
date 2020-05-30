@@ -19,14 +19,14 @@ public class Main {
         double xp = InputCoordinates("xp");
         double yp = InputCoordinates("yp");
 
-        Triangle triangle = new Triangle(x1, y1, x2, y2, x3, y3, xp, yp);
+        Triangle triangle = new Triangle(x1, y1, x2, y2, x3, y3);
 
 
         System.out.println("Периметр треугольника: " + triangle.Perimeter());
 
         System.out.println("Площадь тругольника: " + triangle.Square());
 
-        if (triangle.IsPointInsideTheTriangle()) {
+        if (triangle.IsPointInsideTheTriangle(xp, yp)) {
             System.out.println("Точка (" + xp + "; " + yp + ") принадлежит треугольнику");
         } else System.out.println("Точка (" + xp + "; " + yp + ") не принадлежит треугольнику");
 

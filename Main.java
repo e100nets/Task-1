@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.printf("Треугольник ABC, точка P%nКоординаты точек:%nA(x1, y1)%nB(x2, y2)%nC(x3, y3)%nP(xp, yp)%n");
+        System.out.printf("Треугольник ABC, точка P %nКоординаты точек: %nA(x1, y1) %nB(x2, y2) %nC(x3, y3) %nP(xp, yp) %n");
         double x1 = InputCoordinates("x1");
         double y1 = InputCoordinates("y1");
         double x2 = InputCoordinates("x2");
